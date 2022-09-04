@@ -20,7 +20,7 @@ jobs:
         run: dotnet restore
         
       - name: build app
-        run: dotnet buld -c Release --no-restore
+        run: dotnet build -c Release --no-restore
  
       - name: Run Super-Linter
         uses: github/super-linter@v4
